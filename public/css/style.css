@@ -1,0 +1,84 @@
+.card-img-top {
+    height: 120px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 0.95rem;
+}
+.card-body {
+    padding: 0.6rem;
+}
+.site-footer {
+    background: #212529;
+color: rgba(255, 255, 255, .75);
+}
+
+.footer-title {
+    color: #fff;
+    font-size: 1rem;
+    margin-bottom: .75rem;
+}
+
+.footer-text {
+    font-size: .875rem;
+    line-height: 1.6;
+}
+
+.footer-links a,
+.footer-link {
+    color: rgba(255, 255, 255, .75);
+    text-decoration: none;
+    display: inline-block;
+    padding: .15rem 0;
+    transition: color .15s ease;
+
+    &:hover {
+        color: #ffc107;
+    }
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    font-size: .8rem;
+    color: rgba(255, 255, 255, .5);
+}
+/* Hero */
+.hero {
+    background:
+        linear-gradient(rgba(20, 24, 28, .78), rgba(20, 24, 28, .78)),
+        url('/images/hero.jpg') center / cover no-repeat;
+    min-height: 480px;
+}
+
+/* Полоса цифр */
+.stats .h3 {
+    color: #212529;
+}
+
+/* Карточки категорий */
+.category-card {
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    transition: all .15s ease;
+    color: #212529;
+}
+.category-card:hover {
+    background: #212529;
+    color: #fff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .12);
+}
+
+/* Секция-призыв */
+.cta {
+    background: #212529;
+}
+
+/* Тень карточек */
+.card:hover {
+    transform: translateY(-4px);
+    transition: transform .15s ease;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, .1) !important;
+}
+
